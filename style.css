@@ -6,21 +6,9 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 
-input {
-    width: 400px;
-    height: 32px;
-    font-family: Arial;
-    border: none;
-    background-color: transparent;
-    display: flex;
-    top: 30px;
-}
-
-input:focus {
-    outline: none;
-}
 
 .search {
     position: relative;
@@ -29,7 +17,24 @@ input:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: 130px;
+    top: 160px;
+}
+
+input {
+    width: 480px;
+    height: 25px;
+    font-family: Arial;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 50px;
+}
+
+input:focus {
+    outline: none;
 }
 
 .searchbar {
@@ -71,28 +76,36 @@ input:focus {
 
 ul {
     list-style-type: none;
-    display: flex;
+    display: block;
     margin-top: 5px;
     padding: 0;
 }
 
 li {
     display: inline;
-    margin: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-family: Arial;
-    font-size: 13px;
     color: #000;
-    opacity: 0.75;
+    opacity: 0.60;
 }
 
-#leftnav {
-    float: left;
+.header {
     display:block;
+    font-size: 13px;
+    margin: 10px 20px 0px 20px;
 }
 
-#rightnav {
+
+.leftNav {
+    float: left;
+    display: block;
+}
+
+.rightNav {
     float: right;
     display: block;
+   
 }
 
 #icon {
@@ -116,14 +129,14 @@ li {
     font-weight: bold;
 }
 
-.options {
+.optionGroup {
     position: relative;
     display: block;
     margin: auto;
     margin-top: 185px;
 }
 
-.buttons {
+.options {
     background-color: #f2f2f2;
     border: none;
     color: #2f3031;
@@ -134,3 +147,20 @@ li {
     padding-right: 18px;
     padding-left: 18px;
 }
+
+.footer {
+    position: static;
+    display: block;
+    background-color: #f2f2f2;
+    border: solid;
+    border-width: 1px;
+    border-color: #bdbdbd57;
+    height: 40px;
+    font-size: 14px;
+}
+
+.bottomNav {
+    margin: 20px;
+    margin-top: 10px;
+}
+
