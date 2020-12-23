@@ -29,7 +29,7 @@ input:focus {
     border-width: 1px;
     margin-left: auto;
     margin-right: auto;
-    top: 185px;
+    top: 183px;
     z-index: 1;
     
 }
@@ -48,6 +48,51 @@ input:focus {
     display: block;
     margin-left: -475px;
     position: absolute;
-    top: -358px;
+    top: -360px;
     z-index: 2;
+}
+
+#microphone {
+    position: absolute;
+    z-index: 2;
+    transform: scale(0.5, 0.5);
+    margin-left: 719px;
+    top: 316px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 13px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 8px;
+    font-family: Arial;
+    font-size: 13px;
+    color: #000;
+    opacity: 0.75;
+}
+
+#leftnav {
+    float: left;
+    margin-left: -465px;
+}
+
+#rightnav {
+    float: right;
+    margin-right: -450px;
+}
+
+#icon {
+    transform: scale(0.045, 0.045);
+    position: absolute;
+    margin-left: -258px;
+    margin-top: -246px;
+    opacity: 0.75;
+}
+
+button {
+    margin-left: 15px;
 }
